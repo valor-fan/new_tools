@@ -1,4 +1,4 @@
-# 企查查公司资产 Hunter 批量查询工具
+# 公司资产 Hunter 批量查询工具
 
 该脚本可批量读取企查查（或任意来源）导出的企业名单，通过奇安信 Hunter API 自动枚举企业相关互联网资产，并对疑似后台/登录页进行二次筛查，帮助安全人员高效定位暴露面。也可直接在 VSCode、PyCharm 等代码工具中运行调试，快速验证脚本行为。
 
@@ -45,4 +45,6 @@ pip install -r requirements.txt
 - 建议首次运行前先执行脚本自动的权限自检，确保 API Key 正常。
 - 结果文件会覆盖旧内容，如需保留历史报告，可预先备份 `hunter_results/` 目录。
 
+## 作者信息
+- GitHub：<https://github.com/valor-fan/new_tools>
 
