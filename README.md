@@ -45,6 +45,4 @@ pip install -r requirements.txt
 - 建议首次运行前先执行脚本自动的权限自检，确保 API Key 正常。
 - 结果文件会覆盖旧内容，如需保留历史报告，可预先备份 `hunter_results/` 目录。
 
-## 作者信息
-- GitHub：<https://github.com/placeholder>
 
